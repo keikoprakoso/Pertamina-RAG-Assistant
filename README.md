@@ -6,13 +6,13 @@
 
 A Retrieval-Augmented Generation (RAG) Q&A bot for geothermal energy operations with bilingual support (English & Indonesian).
 
-## 🌋 Project Overview
+## Project Overview
 
 This system allows geothermal energy professionals to ask questions about internal documents (SOPs & procedures) and receive clear bilingual answers based on real context, not just generic LLM hallucinations.
 
 Built with modern technologies including FastAPI, OpenAI embeddings, and FAISS vector database, this assistant provides accurate information retrieval and natural language responses.
 
-## 🚀 Features
+## Features
 
 - **Document Ingestion**: Processes geothermal SOP documents and splits them into semantic chunks
 - **Semantic Search**: Uses OpenAI embeddings for intelligent document retrieval
@@ -23,7 +23,7 @@ Built with modern technologies including FastAPI, OpenAI embeddings, and FAISS v
 - **REST API**: FastAPI backend with interactive documentation
 - **Q&A Logging**: Records all interactions with timestamps for traceability
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 geothermal-knowledge-base-assistant/
@@ -51,80 +51,7 @@ geothermal-knowledge-base-assistant/
 └── README.md              # This file
 ```
 
-## 🛠️ Setup Instructions
-
-### Prerequisites
-
-- Python 3.8 or higher
-- An OpenAI API key (get one from [OpenAI Platform](https://platform.openai.com/account/api-keys))
-
-### Installation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/geothermal-knowledge-base-assistant.git
-   cd geothermal-knowledge-base-assistant
-   ```
-
-2. Create a virtual environment:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Set up your OpenAI API key:
-   - Copy `.env.example` to `.env`:
-     ```bash
-     cp .env.example .env
-     ```
-   - Open the `.env` file and replace `your_openai_api_key_here` with your actual OpenAI API key
-
-### Running the Application
-
-1. Start the FastAPI server:
-   ```bash
-   python3 app.py
-   ```
-
-2. Access the web interface at: http://localhost:8000/static/index.html
-
-3. API documentation available at: http://localhost:8000/docs
-
-## 🖥️ Usage
-
-### Web Interface
-
-1. Open your browser and navigate to `http://localhost:8000/static/index.html`
-2. Type your question in the input field (in English or Indonesian)
-3. Click "Send" or press Enter
-4. View the bilingual response in the chat history
-
-### API Usage
-
-To ask a question via API, send a POST request to `/ask`:
-
-```bash
-curl -X POST "http://localhost:8000/ask" \
-     -H "Content-Type: application/json" \
-     -d '{"question": "What are the safety protocols for geothermal well drilling?"}'
-```
-
-Or using Python requests:
-
-```python
-import requests
-
-response = requests.post("http://localhost:8000/ask", 
-                         json={"question": "What are the safety protocols for geothermal well drilling?"})
-print(response.json())
-```
-
-## 📚 Available Topics
+## Available Topics
 
 The system covers the following geothermal energy topics:
 - Geothermal Well Drilling Safety Protocol
@@ -136,7 +63,7 @@ The system covers the following geothermal energy topics:
 - Personnel Training for Geothermal Operations
 - Water Management in Geothermal Systems
 
-## 🧪 Testing
+## Testing
 
 Run the test script to verify the system works:
 ```bash
@@ -148,7 +75,7 @@ Or use the command-line interface:
 python3 cli.py
 ```
 
-## 🏗️ Development
+## Development
 
 To extend the system:
 
@@ -157,7 +84,7 @@ To extend the system:
 3. Modify the prompt in `generate_answer` for different response formats
 4. Add more preprocessing steps for document ingestion
 
-## 📖 How It Works
+## How It Works
 
 1. **Document Ingestion**: The system reads the SOP document and splits it into chunks
 2. **Embedding**: Each chunk is converted to embeddings using OpenAI's text-embedding-ada-002 model
@@ -166,23 +93,6 @@ To extend the system:
 5. **Generation**: The retrieved context is used to construct a prompt for OpenAI's GPT-3.5-turbo model
 6. **Response**: The model generates a bilingual answer based on the context
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [OpenAI](https://openai.com/) for embeddings and language models
-- [Facebook AI](https://ai.facebook.com/) for FAISS vector database
-- [FastAPI](https://fastapi.tiangolo.com/) for the web framework# Pertamina-RAG-Assistant
-# Pertamina-RAG-Assistant
