@@ -185,3 +185,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [OpenAI](https://openai.com/) for embeddings and language models
 - [Facebook AI](https://ai.facebook.com/) for FAISS vector database
 - [FastAPI](https://fastapi.tiangolo.com/) for the web framework# Pertamina-RAG-Assistant
+# Pertamina-RAG-Assistant
