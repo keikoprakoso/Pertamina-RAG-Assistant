@@ -1,0 +1,63 @@
+[English]
+Title: Geothermal Well Drilling Safety Protocol
+Content: Before drilling operations, conduct comprehensive geological survey and risk assessment. Ensure all personnel complete geothermal drilling safety certification. Maintain minimum 50-meter safety perimeter around drilling site. Monitor hydrogen sulfide levels continuously with calibrated detectors. Implement emergency evacuation plan within 15 minutes of hazard detection. Document all drilling parameters and geological findings hourly.
+
+[Indonesian]
+Judul: Protokol Keselamatan Pemboran Sumur Geotermal
+Konten: Sebelum operasi pemboran, lakukan survei geologi menyeluruh dan penilaian risiko. Pastikan semua personel menyelesaikan sertifikasi keselamatan pemboran geotermal. Pertahankan perimeter keselamatan minimum 50 meter di sekitar lokasi pemboran. Pantau tingkat hidrogen sulfida secara terus-menerus dengan detektor terkalibrasi. Terapkan rencana evakuasi darurat dalam waktu 15 menit setelah deteksi bahaya. Dokumentasikan semua parameter pemboran dan temuan geologi setiap jam.
+
+[English]
+Title: Steam Field Operations Manual
+Content: Monitor steam pressure and temperature at collection headers every 30 minutes. Maintain separator vessel operating pressure between 150-200 psi. Record flow rates for each production well daily. Calibrate pressure relief valves annually with certified technicians. Implement corrosion monitoring program using corrosion coupons and linear polarization resistance probes.
+
+[Indonesian]
+Judul: Manual Operasi Lapangan Uap
+Konten: Pantau tekanan dan suhu uap di header koleksi setiap 30 menit. Pertahankan tekanan operasi bejana pemisah antara 150-200 psi. Catat laju alir untuk setiap sumur produksi harian. Kalibrasi katup pelega tekanan setiap tahun dengan teknisi bersertifikat. Terapkan program pemantauan korosi menggunakan kupon korosi dan probe resistansi polarisasi linier.
+
+[English]
+Title: Power Plant Startup Procedure
+Content: Preheat steam pipelines for 2 hours before turbine startup. Gradually increase turbine RPM from 500 to 3000 over 30 minutes. Verify condenser vacuum level maintains below -25 inHg. Confirm cooling tower fan operation before circulating water system activation. Synchronize generator with grid only after achieving stable frequency within 49.9-50.1 Hz.
+
+[Indonesian]
+Judul: Prosedur Startup Pembangkit Listrik
+Konten: Panaskan awal pipa uap selama 2 jam sebelum startup turbin. Tingkatkan secara bertahap RPM turbin dari 500 menjadi 3000 selama 30 menit. Verifikasi tingkat vakum kondenser tetap di bawah -25 inHg. Konfirmasi operasi kipas menara pendingin sebelum aktivasi sistem air sirkulasi. Sinkronkan generator dengan grid hanya setelah mencapai frekuensi stabil dalam rentang 49,9-50,1 Hz.
+
+[English]
+Title: Environmental Monitoring Requirements
+Content: Measure and record ambient noise levels quarterly at 100-meter intervals from plant boundary. Collect groundwater samples monthly for chemical analysis within 500-meter radius. Monitor subsidence using GPS survey points annually. Submit emission reports to environmental agency by 10th of each month. Maintain flora and fauna biodiversity survey database with annual updates.
+
+[Indonesian]
+Judul: Persyaratan Pemantauan Lingkungan
+Konten: Ukur dan catat tingkat kebisingan ambien setiap kuartal pada interval 100 meter dari batas pabrik. Kumpulkan sampel air tanah bulanan untuk analisis kimia dalam radius 500 meter. Pantau penurunan tanah menggunakan titik survei GPS setiap tahun. Kirim laporan emisi ke badan lingkungan sebelum tanggal 10 setiap bulan. Pertahankan basis data survei keanekaragaman hayati flora dan fauna dengan pembaruan tahunan.
+
+[English]
+Title: Maintenance Schedule for Geothermal Equipment
+Content: Inspect heat exchanger tubes for scaling and corrosion monthly using ultrasonic testing. Replace steam turbine blades every 5 years or 80,000 operating hours. Lubricate generator bearings with high-temperature grease quarterly. Test electrical insulation resistance annually with megohmmeter above 1000 MΩ. Calibrate temperature sensors with NIST-traceable standards every 6 months.
+
+[Indonesian]
+Judul: Jadwal Pemeliharaan untuk Peralatan Geotermal
+Konten: Periksa tabung penukar panas untuk kerak dan korosi setiap bulan menggunakan pengujian ultrasonik. Ganti sudu turbin uap setiap 5 tahun atau 80.000 jam operasi. Lumasi bantalan generator dengan pelumas tahan suhu tinggi setiap kuartal. Uji resistansi isolasi listrik setiap tahun dengan megohmmeter di atas 1000 MΩ. Kalibrasi sensor suhu dengan standar yang dapat dilacak NIST setiap 6 bulan.
+
+[English]
+Title: Emergency Response for Hydrogen Sulfide Release
+Content: Immediately activate area alarm system upon H2S detection above 10 ppm. Evacuate all non-essential personnel upwind at least 500 meters from source. Don self-contained breathing apparatus before entering affected area. Establish decontamination station at 100-meter perimeter. Notify emergency response team and local authorities within 5 minutes.
+
+[Indonesian]
+Judul: Respons Darurat untuk Pelepasan Hidrogen Sulfida
+Konten: Segera aktifkan sistem alarm area upon deteksi H2S di atas 10 ppm. Evakuasi semua personel non-esensial ke arah angin setidaknya 500 meter dari sumber. Kenakan alat pernapasan mandiri sebelum memasuki area yang terpengaruh. Dirikan stasiun dekontaminasi di perimeter 100 meter. Beri tahu tim respons darurat dan otoritas lokal dalam waktu 5 menit.
+
+[English]
+Title: Personnel Training for Geothermal Operations
+Content: Complete geothermal technology fundamentals course before plant assignment. Attend annual refresher training on geothermal safety protocols. Demonstrate proficiency in hydrogen sulfide detection equipment usage. Participate in quarterly emergency response drills specific to geothermal hazards. Maintain training records with certification expiration dates.
+
+[Indonesian]
+Judul: Pelatihan Personel untuk Operasi Geotermal
+Konten: Selesaikan kursus dasar teknologi geotermal sebelum penugasan di pabrik. Ikuti pelatihan penyegaran tahunan tentang protokol keselamatan geotermal. Tunjukkan kemahiran dalam penggunaan peralatan deteksi hidrogen sulfida. Ikuti latihan respons darurat triwulanan khusus untuk bahaya geotermal. Pertahankan catatan pelatihan dengan tanggal kedaluwarsa sertifikasi.
+
+[English]
+Title: Water Management in Geothermal Systems
+Content: Monitor reinjection well pressures to maintain reservoir stability. Test geothermal fluid chemistry quarterly for scaling potential. Implement water treatment system to remove silica and heavy metals. Maintain cooling tower cycles of concentration below 3.0. Record water usage and discharge volumes daily in operations log.
+
+[Indonesian]
+Judul: Manajemen Air dalam Sistem Geotermal
+Konten: Pantau tekanan sumur reinjeksi untuk mempertahankan stabilitas reservoir. Uji kimia fluida geotermal setiap kuartal untuk potensi pengendapan. Terapkan sistem pengolahan air untuk menghilangkan silika dan logam berat. Pertahankan siklus konsentrasi menara pendingin di bawah 3,0. Catat penggunaan air dan volume pembuangan harian dalam log operasi.

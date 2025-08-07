@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geothermal Knowledge Base Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-temperature-high"></i>
+                    <h1>Geothermal Knowledge Base</h1>
+                </div>
+                <p>Ask questions about geothermal energy operations and safety procedures</p>
+            </div>
+        </header>
+        
+        <main>
+            <div class="chat-container">
+                <div class="chat-header">
+                    <h2><i class="fas fa-comments"></i> Knowledge Assistant</h2>
+                    <div class="status-indicator">
+                        <span class="status-dot"></span>
+                        <span class="status-text">Online</span>
+                    </div>
+                </div>
+                
+                <div class="chat-history" id="chatHistory">
+                    <div class="message bot-message">
+                        <div class="message-header">
+                            <i class="fas fa-robot"></i>
+                            <span class="sender-name">Knowledge Assistant</span>
+                        </div>
+                        <div class="message-content">
+                            Hello! I'm your Geothermal Knowledge Base Assistant. How can I help you with geothermal operations today?
+                        </div>
+                        <div class="message-content indonesian">
+                            Halo! Saya adalah Asisten Basis Pengetahuan Geotermal Anda. Bagaimana saya bisa membantu Anda dengan operasi geotermal hari ini?
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="input-area">
+                    <form id="questionForm">
+                        <div class="input-group">
+                            <input type="text" id="questionInput" placeholder="Ask about geothermal operations, safety, or maintenance..." required>
+                            <button type="submit">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="info-panel">
+                <div class="panel-header">
+                    <h2><i class="fas fa-info-circle"></i> System Information</h2>
+                </div>
+                
+                <div class="info-content">
+                    <p>This Retrieval-Augmented Generation (RAG) system provides accurate answers based on geothermal energy Standard Operating Procedures.</p>
+                    
+                    <h3><i class="fas fa-book"></i> Available Topics:</h3>
+                    <ul class="topics-list">
+                        <li><i class="fas fa-check-circle"></i> Geothermal Well Drilling Safety</li>
+                        <li><i class="fas fa-check-circle"></i> Steam Field Operations</li>
+                        <li><i class="fas fa-check-circle"></i> Power Plant Startup Procedures</li>
+                        <li><i class="fas fa-check-circle"></i> Environmental Monitoring</li>
+                        <li><i class="fas fa-check-circle"></i> Equipment Maintenance Schedules</li>
+                        <li><i class="fas fa-check-circle"></i> Emergency Response Protocols</li>
+                        <li><i class="fas fa-check-circle"></i> Personnel Training Requirements</li>
+                        <li><i class="fas fa-check-circle"></i> Water Management Systems</li>
+                    </ul>
+                    
+                    <div class="language-toggle">
+                        <button id="langToggle" class="active">
+                            <i class="fas fa-language"></i> English
+                        </button>
+                        <button id="langToggleID">
+                            <i class="fas fa-language"></i> Indonesian
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>© 2025 Geothermal Knowledge Base Assistant | RAG System v1.0</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
